@@ -1,0 +1,39 @@
+{
+    "name": "boufoun/laravel-cookie-preference",
+    "description": "A Laravel package to create a non-intrusive GDPR cookie preferences page",
+    "keywords": [
+        "cookie",
+        "preference",
+        "privacy",
+        "policy",
+        "gdpr"
+    ],
+    "homepage": "https://github.com/boufoun/laravel-cookie-preference",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nordin Boufouchk",
+            "email": "npboufouchk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^6.0",
+        "laravel/framework": "^6.0|^7.0",
+    },
+    "autoload": {
+        "psr-4": {
+           "Boufoun\\CookiePreference\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Boufoun\\CookiePreference\\CookiePreferenceServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+
+}
