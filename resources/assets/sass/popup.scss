@@ -1,0 +1,32 @@
+#lcp-popup {
+	position: fixed;
+	bottom: 3rem;
+	left: 3rem;
+	padding: 1em 2em;
+	background-color: #fff;
+	color: #000;
+	.lcp-popup-message {
+		.title {
+			font-size: 1.7rem;
+		}
+		.content {
+			font-size: 1.7rem;
+		}
+	}
+	.lcp-popup-actions {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		.lcp-popup-action {
+			padding: 1rem 2rem;
+			&.lcp-popup-action-accept {
+				background-color: green;
+				color: #fff;
+			}
+			&.lcp-popup-action-manage {
+				color: #000;
+				background-color: transparent;
+			}
+		}
+	}
+}
